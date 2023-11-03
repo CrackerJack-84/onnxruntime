@@ -39,7 +39,7 @@ To run locally:
 - A GPU enabled machine with CUDA or DirectML on Windows
     - Configure CUDA EP.  Follow [this tutorial to configure CUDA and cuDNN for GPU with ONNX Runtime and C# on Windows 11](https://onnxruntime.ai/docs/tutorials/csharp/csharp-gpu.html)
     - Windows comes with DirectML support. No additional configuration is needed. Be sure to clone the [`direct-ML-EP`](https://github.com/cassiebreviu/StableDiffusion/tree/direct-ML-EP) branch of this repo if you choose this option.
-    - This was built on a GTX 3070 and it has not been tested on anything smaller.
+    - This was built on a RTX 3070 and it has not been tested on anything smaller.
 
 
 To run in the cloud with Azure Machine Learning:
